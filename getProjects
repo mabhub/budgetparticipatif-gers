@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+const getProjects = require('./lib/get-projects.js');
+const fs = require('fs');
+
+const links = JSON.parse(fs.readFileSync('./links.json').toString());
+
+(async () => {
+  const projects = await getProjects(links);
+  process.stdout.write(JSON.stringify(projects, null, 2));
+})();

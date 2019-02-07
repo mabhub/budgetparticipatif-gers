@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+const getList = require('./lib/get-list.js');
+
+(async () => {
+  const json = await getList();
+  process.stdout.write(json);
+})();

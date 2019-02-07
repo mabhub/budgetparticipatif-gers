@@ -1,0 +1,25 @@
+{
+  "name": "budgetparticipatif-gers",
+  "version": "0.1.0",
+  "description": "",
+  "bin": {
+    "getList": "./getList",
+    "getProjects": "./getProjects"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mabhub/budgetparticipatif-gers.git"
+  },
+  "author": "Benjamin <benjamin.marguin@makina-corpus.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mabhub/budgetparticipatif-gers/issues"
+  },
+  "homepage": "https://github.com/mabhub/budgetparticipatif-gers#readme",
+  "dependencies": {
+    "puppeteer": "~1.12.2"
+  }
+}
