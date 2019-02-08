@@ -6,6 +6,6 @@ const fs = require('fs');
 const links = JSON.parse(fs.readFileSync('./links.json').toString());
 
 (async () => {
-  const projects = await getProjects(links);
+  const projects = await getProjects(links, 10);
   process.stdout.write(JSON.stringify(projects, null, 2));
 })();
