@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mabhub/budgetparticipatif-gers#readme",
   "dependencies": {
+    "progress": "~2.0.3",
     "puppeteer": "~1.12.2"
   }
 }
